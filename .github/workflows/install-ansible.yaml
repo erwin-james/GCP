@@ -22,9 +22,9 @@ jobs:
       - name: Install Ansible
         run: |
           sudo dnf install python3-pip -y
-          pip3 install ansible
+          pip3 install ansible -y
           
 
       - name: Check Ansible version
         run: |
-          ansible --version   
+          ansible --version       
